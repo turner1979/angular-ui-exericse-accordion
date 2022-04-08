@@ -1,5 +1,11 @@
 # Angular UI Excerise ( Accordion )
 
+## View App
+
+You can view the UI on stackblitz here:
+
+[demo](https://stackblitz.com/github/turner1979/angular-ui-exericse-accordion)
+
 ## Local Development
 
 - Clone repo
