@@ -6,6 +6,11 @@
 - Run ```npm install```
 - Open terminal or cmd prompt and run ```ng serve```
 
+
+## Unit Tests
+
+- Run ```ng test```
+
 ## Notes
 
 - Used [font squirrel](https://www.fontsquirrel.com/tools/webfont-generator) to generate woff2 and woff fonts using the supplied ttf font.
