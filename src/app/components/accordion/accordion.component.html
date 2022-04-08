@@ -1,0 +1,25 @@
+<div *ngIf="faqs$ | async as faqs; else loading" class="accordion">
+
+  <div
+    class="accordion__item"
+    *ngFor="let faq of faqs; index as i;"
+    [ngClass]="openAnswer === i ? 'accordion__item--open' : ''"
+    (click)="onOpenAnswer(i)">
+
+    <div class="accordion__item-head">
+      <p>Q{{ faq.id }}</p>
+      <p>{{ faq.question }}</p>
+      <span class="accordion__item-head-icon">
+        <img src="assets/icons/plus-icon.svg" width="30" height="30" alt="">
+      </span>
+    </div>
+    <div class="accordion__item-body">
+      <p>{{ faq.answer }}</p>
+    </div>
+  </div>
+
+
+</div>
+<ng-template #loading>
+  <p>loading...</p>
+</ng-template>

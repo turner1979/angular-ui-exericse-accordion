@@ -1,0 +1,21 @@
+@import '../styles.scss';
+
+.content {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+
+  h1 {
+    color: $colour-dark-grey;
+    text-transform: uppercase;
+    font-family: 'oswald-bold', arial;
+    font-size: 3rem;
+  }
+
+  .divider {
+    background: $colour-dark-grey;
+    height: 25px;
+    margin-bottom: 1rem;
+  }
+
+}
